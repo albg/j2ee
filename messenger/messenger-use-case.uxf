@@ -20,7 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// This text will be stored with each diagram;  use it for notes.</help_text><zoom_level>10</zoom_level><element><type>com.umlet.element.base.Actor</type><coordinates><x>70</x><y>190</y><w>100</w><h>120</h></coordinates><panel_attributes>User</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.UseCase</type><coordinates><x>220</x><y>80</y><w>120</w><h>40</h></coordinates><panel_attributes>Write message
-</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.UseCase</type><coordinates><x>300</x><y>220</y><w>160</w><h>50</h></coordinates><panel_attributes>Select user
-</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.UseCase</type><coordinates><x>290</x><y>140</y><w>120</w><h>40</h></coordinates><panel_attributes>Load user
-</panel_attributes><additional_attributes/></element></umlet_diagram>
+// This text will be stored with each diagram;  use it for notes.</help_text><zoom_level>10</zoom_level><element><type>com.umlet.element.base.UseCase</type><coordinates><x>270</x><y>400</y><w>240</w><h>50</h></coordinates><panel_attributes>Send message to user
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.UseCase</type><coordinates><x>270</x><y>320</y><w>240</w><h>50</h></coordinates><panel_attributes>Recieve messages from users
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.UseCase</type><coordinates><x>270</x><y>240</y><w>240</w><h>50</h></coordinates><panel_attributes>Register/Unregister
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Note</type><coordinates><x>590</x><y>50</y><w>300</w><h>130</h></coordinates><panel_attributes>Note..
+User registers by anyname.
+Name should be unique in system.
+User unregisters in system in anytime and when close client.
+When user are unregistered he is unreachable for other users.</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>460</x><y>100</y><w>130</w><h>150</h></coordinates><panel_attributes/><additional_attributes>30;130;110;30</additional_attributes></element></umlet_diagram>
